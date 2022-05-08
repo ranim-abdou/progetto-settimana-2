@@ -1,0 +1,123 @@
+/* IMPOSTAZIONI GENERALI */
+html{
+    font-style: 'Fira Sans', sans-serif;
+    width: auto;
+    display: inline;
+    height: auto;
+    padding: 1.2rem;
+    margin-right: auto;
+}
+
+
+
+
+body{
+    color: #000;
+    font-size: 1.5rem;
+    font-family:  'Fira Sans', sans-serif;
+    background-color: white;
+    padding: 10em;
+    display:inline;
+    align-items: center;
+    position: relative;
+}
+h1{
+    font-size: 4rem;
+}
+h2{
+ font-size: 3.5rem;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    box-shadow: 0 2px 10px rgb(226, 226, 226);
+    padding: 1em;
+    position: sticky;
+    top: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+input#menuButton {
+    display: none;
+}
+
+input#menuButton:checked ~ nav {
+    height:200px;
+} 
+
+@media screen and (max-width: 768px) {
+    header nav {
+        height: 0;
+        overflow: hidden;
+        position: relative;
+        width: 100%;
+        transition: height 0.5s ease-out;
+    }
+}
+
+@media screen and (min-width: 768px) {
+
+    #menuMobile {
+        display: none;
+    }
+
+    header nav ul {
+        margin-right: 2em;
+    }
+
+    header nav ul li {
+        display: inline-block;
+        margin: 0 0 0 1em;
+    }
+
+    header nav ul li a {
+        text-decoration: none;
+        color: grey;
+    }
+}
+footer{
+    background-color: rgb(238,238,238);
+}
+
+.epico{
+    background-image: url(../images/banner.jpg);
+	background-size: auto;
+	background-position: center top;
+	background-repeat: no-repeat;
+    width: auto;
+    display: flex;
+    
+}
+div{
+    padding: 15rem;
+}
+.bottone button {
+    background: rgb(108,193,226);
+    background: linear-gradient(90deg, rgba(108,193,226,1) 0%, rgba(78,108,166,1) 44%);
+
+}
+.epico button{
+    background: rgb(108,193,226);
+    background: linear-gradient(90deg, rgba(108,193,226,1) 0%, rgba(78,108,166,1) 44%);
+}
+
+.tabella{
+    box-shadow: inset #d3d3d3;
+}
+.tabella h2{
+    color: rgb(40, 40, 70);
+    
+}
+/* HEADER */
+
+/* MAIN */
+
+/* FOOTER */
+
+/* RESPONSIVE */

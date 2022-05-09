@@ -72,11 +72,7 @@ input#menuButton:checked ~ nav {
         color: grey;
     }
 }
-footer{
-    background-color: rgb(238,238,238);
-}
-    
-}
+
 div{
     padding: 15rem;
 }
@@ -127,6 +123,68 @@ main button{
     box-shadow: 0 0 0 0  #000000;
     animation: pulse 2s infinite;
 }
+section{
+    text-align: center;
+    padding:15px;
+}
+section .lni{
+    margin-top: 35px;
+    font-size: 3.5rem;
+}
+section h2{
+    margin:20px 0 20px 0;
+}
+aside{
+    text-align: center;
+    padding:25px;
+}
+aside img{
+    max-width: 100%;
+    min-width: 100%;
+}
+aside h2{
+    margin-top: 20px;
+}
+footer{
+    text-align: center;
+    background-color: rgb(238, 238, 238);
+    margin-top: 40px;
+    padding: 40px;
+}
+footer h4{
+    font-size: 1.5em;
+    line-height: normal;
+}
+footer p{
+    margin:20px 0 20px 0;
+}
+footer div i{
+    color: rgb(228, 36, 36);
+    font-size: 3em;
+    margin: 20px 0 20px 0;
+}
+footer div #email{
+    box-sizing: border-box;
+}
+footer div #email input{
+    width: 90%;
+    height: 70px;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+footer button{
+    background-image: linear linear-gradient(to right, #6cc1e2, #392f7a);
+    color: white;
+    border: none;
+    width: 90%;
+    margin-top: 0%;
+
+}
+footer button a{
+    text-shadow: 0em;
+}
+    
+
 /* HEADER */
 
 /* MAIN */

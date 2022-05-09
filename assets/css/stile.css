@@ -1,31 +1,22 @@
 /* IMPOSTAZIONI GENERALI */
-html{
-    font-style: 'Fira Sans', sans-serif;
-    width: auto;
-    display: inline;
-    height: auto;
-    padding: 1.2rem;
-    margin-right: auto;
-}
-
-
-
-
 body{
     color: #000;
-    font-size: 1.5rem;
     font-family:  'Fira Sans', sans-serif;
     background-color: white;
-    padding: 10em;
-    display:inline;
-    align-items: center;
-    position: relative;
+    font-size: 1.5rem;
+    line-height: 1.0;
 }
 h1{
     font-size: 4rem;
+    line-height: 1;
 }
 h2{
  font-size: 3.5rem;
+ line-height: 1;
+}
+h3{
+    font-size: 2.5rem;
+    margin-bottom: 20px;
 }
 .container {
     width: 80%;
@@ -84,14 +75,6 @@ input#menuButton:checked ~ nav {
 footer{
     background-color: rgb(238,238,238);
 }
-
-.epico{
-    background-image: url(../images/banner.jpg);
-	background-size: auto;
-	background-position: center top;
-	background-repeat: no-repeat;
-    width: auto;
-    display: flex;
     
 }
 div{
@@ -100,11 +83,21 @@ div{
 .bottone button {
     background: rgb(108,193,226);
     background: linear-gradient(90deg, rgba(108,193,226,1) 0%, rgba(78,108,166,1) 44%);
+    padding:15px;
 
 }
 .epico button{
     background: rgb(108,193,226);
     background: linear-gradient(90deg, rgba(108,193,226,1) 0%, rgba(78,108,166,1) 44%);
+    padding:15px;
+}
+.button a{
+    font-size: 2rem;
+    color: white;
+    text-shadow: 0 0 8px #000000;
+}
+.lni{
+    color: rgb(228, 36, 36)
 }
 
 .tabella{
@@ -113,6 +106,26 @@ div{
 .tabella h2{
     color: rgb(40, 40, 70);
     
+}
+main .epico{
+    background: white url(../images/banner.jpg) no-repeat center;
+    background-size: cover;
+    color: white;
+    padding: 1.2em;
+    text-shadow:0 0 8px #000000 ;
+    box-sizing: border-box;
+}
+main h2{
+    margin-bottom: 60px;
+    margin-top: 40px;
+}
+main p{
+    font-size: small;
+}
+main button{
+    margin-top: 30px;
+    box-shadow: 0 0 0 0  #000000;
+    animation: pulse 2s infinite;
 }
 /* HEADER */
 

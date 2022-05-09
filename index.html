@@ -9,8 +9,10 @@
   <link rel="stylesheet" href="assets/css/stile.css">
   <link rel="stylesheet" href="assets/css/reset.css">
   <link rel="preconnect" href="https://fonts.googleapis.com"> 
-                <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
-                <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin=> 
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/66e747a765.js" crossorigin="anonymous"></script>
+  <link href="https://cdn.lineicons.com/3.0/lineicons.css" rel="stylesheet">
 </head>
 
 <body>
@@ -34,12 +36,14 @@
         </nav>
     </header>
 </div>
+<main>
   <div class="epico">
-    <img src="assets/images/banner.jpg" title="Banner">
   <h2>Diventa un developer EPICO</h2>
-  <p>Diventa un developer Epico e ti troviamo noi il lavoro. Scommettiamo su di te: paghi metà del corso, l'altra metà la paghi solo quando inizi a lavorare. <button>Chiedi info</button></p>
+  <p>Diventa un developer Epico e ti troviamo noi il lavoro. Scommettiamo su di te: paghi metà del corso, l'altra metà la paghi solo quando inizi a lavorare.</p>
+  <button type="button"><a href="#" target="_blank">Chiedi info</a></button>
   </div>
-
+</main>
+<section>
   <div>
     <h2>Perche diventare un Developer?</h2>
     <p>Non servono laurea e competenze specifiche, solo impegno.</p>
@@ -47,54 +51,82 @@
     <p>Il lavoro che andrai a fare è veramente figo.</p>
   </div>
 
-  <div>
+  <div class="icone">
+    <div>
+      <i class="lni lni-comments"></i>
     <h2>Tutti ti cercheranno</h2>
     <p>Sono 30.000 in Italia le posizioni di developer scoperte, scegli quella che ti stimola di più.</p>
-    <p>Potrai lavorare dove vuoi.</p>
-  </div>
+    </div>
+
 
   <div>
+    <i class="lni lni-map-marker"></i>
     <h2>Potrai lavorare dove vuoi</h2>
     <p>non serve lavorare in ufficio per essere creatori di prodotti digitali, e le aziende lo sanno. Lavora da casa, in riva al mare o in montagna.</p>
+  </div>
+  <div>
+    <i class="lni lni-consulting"></i>
     <p>Azienda, Freelance o Startup.</p>
     <p>Scegli più facilmente la carriera e il rapporto di lavoro che ti piace di più, in qualsiasi momento.</p>
-
   </div>
+</div> 
+</section>
+
+
 
   <div class="bottone">
-    <img src="assets/images/foto1.jpg" title="Foto1">
     <h2>Ma chi è il Developer oggi?</h2>
-    <p> Se non lo sai te lo diciamo noi: il futuro è dei developer <button>Scrivici!</button></p>
+    <p> Se non lo sai te lo diciamo noi: il futuro è dei developer </p>
+    <button type="button"><a href="#" target="_blank">Scrivici!</a></button>
   </div>
 
+  <aside>
+  <img src="assets/images/foto1.jpg" title="Foto1">
+<div class="faccine">
   <div>
-    <h2>Chi sarai</h2>
+    <h2><i class="lni lni-happy"></i>Chi sarai</h2>
     <p>Il creatore delle app che usi tutti i giorni.</p>
 
   </div>
 
   <div>
-    <h2>Chi diventerai</h2>
+    <h2><i class="lni lni-cool"></i>Chi diventerai</h2>
     <p>Lo specialista padrone del suo tempo e spazio</p>
   </div>
 
   <div>
-    <h2>Chi non sarai</h2>
+    <h2><i class="lni lni-suspect"></i>Chi non sarai</h2>
     <p>Il nerd incollato allo schermo</p>
   </div>
+</aside>
+</div>
 
   <!--SECONDA PAGINA-->
-  <title>CHI SIAMO</title>
+ <footer>
+  <h2>CHI SIAMO</h2>
   <h1>Epicode - Profilo aziendale</h1>
   <meta name="description" content="Epicode School: la presentazione dei nostri servizi e l'offerta didattica">
 
-
+<div class="social">
   <h1>We are coder</h1>
   <img src="assets/images/foto2.jpg" title="foto2">
   <p>Epicode nasce con l'obiettivo di rivoluzionare la formzione in ambito tech. Vogliamo essere il movimento dei creatori digitali che il mercato richiede: formiamo, forniamo e aggiorniamo specialisti con la missione di trasformare le aziende dall'interno e offrire ai giovani sicure prosepettive di carriera. Siamo a Roma ma arrivimo in tutta Italia, per creare la community che rivoluzionerà il mondo del lavoro.</p>
   <p>Investiamo sul talento e vogliamo dimostrartelo: effettua un colloqui di selezione per accedere ad una delle 5 borse di studio disponibili.</p>
   <p>Riceverai subito l'esito, quindi ti consigliamo di contattarci prima che le borse di studio si esauriscano: contattaci e candidati subito.</p>
-  
+  <h4>Ti piace ciò che vedi?</h4> 
+  <h4>Condividilo con i tuoi amici</h4>
+  <i class="fa-brands fa-facebook-square"></i>
+  <i class="fa-brands fa-linkedin"></i>
+  <i class="fa-brands fa-instagram-square"></i>
+</div>
+<div>
+  <h4>Iscriviti alla nostra newsletter</h4>
+  <div id="email">
+    <input type="email" name="email">
+  </div>
+  <div id="bottone">
+    <button type="button"><a href="#" target="_blank">Va bene!</a></button>
+</div>  
   <img src="assets/images/notebook.jpg" title="notebook">
   <fieldset class="tabella">
     <legend>Base 500€ +IVA   Intermedio 1000€+IVA   Avanzato 2000€+IVA</legend>
@@ -104,8 +136,6 @@
 
       </ul>  
   </fieldset>
-
-  <footer>
     <!--TERZA PAGINA-->
     <section class="finestre">
       <fieldset>
@@ -119,7 +149,7 @@
         <input type="email" name="email" id="email"><br   />
         <label for="note">Scrivi in breve il tuo messaggio!</label>
         <input type="text" name="testo" id="testo"><br />
-        <button>Invia il messaggio</button>
+        <button type="button"><a href="#" target="_blank">Invia il messaggio</a></button>
       </form>
     <address>
       <ul>
@@ -128,6 +158,9 @@
           <p>Per poterti candidare ad un ruolo da docente invia il tuo cv a</p>
           <li><i class="fa-fa-envelope-square"></i><a href="mailto:job@epicode.school">job@epicode.school</a></li>
           <li><i class="fa-fa-external-linl-square-alt"></i>Via Appia 1 - 00100 (RM)</li>
+          <div>
+            <p>&copy; 2021 Epicode Web Developer school - Via Appia 1, 00100 Roma (RM) - Tel. 06-12345678</p>
+          </div>
       </ul>
   </address>
 
